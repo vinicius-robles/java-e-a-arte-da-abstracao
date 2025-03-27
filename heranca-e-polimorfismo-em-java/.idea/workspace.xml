@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f6f6937-59d6-4121-9a7a-a27238379da4" name="Changes" comment="" />
+    <list default="true" id="3f6f6937-59d6-4121-9a7a-a27238379da4" name="Changes" comment="Adicionado projeto de Introdução a herança e polimorfismo.">
+      <change afterPath="$PROJECT_DIR$/introducao-a-heranca-e-polimorfismo/src/domain/Salesman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introducao-a-heranca-e-polimorfismo/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/introducao-a-heranca-e-polimorfismo/src/domain/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introducao-a-heranca-e-polimorfismo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/introducao-a-heranca-e-polimorfismo/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introducao-a-heranca-e-polimorfismo/src/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/introducao-a-heranca-e-polimorfismo/src/domain/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introducao-a-heranca-e-polimorfismo/src/Salesman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/introducao-a-heranca-e-polimorfismo/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/introducao-a-heranca-e-polimorfismo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/introducao-a-heranca-e-polimorfismo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/introducao-a-heranca-e-polimorfismo/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/introducao-a-heranca-e-polimorfismo/Salesman.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,21 +31,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "vinicius-robles"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vinicius-robles&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/vinicius-robles/java-e-a-arte-da-abstracao.git",
-    "accountId": "759f35b4-8e1f-4d73-b748-b8d3d6f13546"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vinicius-robles/java-e-a-arte-da-abstracao.git&quot;,
+    &quot;accountId&quot;: &quot;759f35b4-8e1f-4d73-b748-b8d3d6f13546&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2uovS6dbVZZCS10r3UzDKvQ0xx4" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -43,20 +54,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Vinicius/ESTUDOS/CURSO__DIO/Bootcamp_Bradesco/heranca-e-polimorfismo-em-java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Vinicius/ESTUDOS/CURSO__DIO/Bootcamp_Bradesco/heranca-e-polimorfismo-em-java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -80,6 +91,30 @@
       <option name="presentableId" value="Default" />
       <updated>1742927738023</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adicionado projeto de Introdução a herança e polimorfismo.">
+      <option name="closed" value="true" />
+      <created>1743017315201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743017315201</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adicionado projeto de Introdução a herança e polimorfismo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado projeto de Introdução a herança e polimorfismo." />
   </component>
 </project>
